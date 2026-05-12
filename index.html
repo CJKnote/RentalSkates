@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate Sharpening Log</title>
+</head>
+
+<body>
+    <p>Text goes here
+    </p>
+
+    <div id = "UserInput"></div>
+
+    <form name = "sForm" id = "newSForm">
+        <input name = "sForm" id = "nameInput" placeholder = "Staff Name"><br>
+        <input name = "sForm" id = "numberInput" placeholder = "Skate #"><br>
+        <select name = "sForm" id = "task" placeholder = "sharpening">
+            <option value ="sharpening">Sharpening</option>
+            <option value ="missing">Marking as missing</option>
+            <option value ="disposal">Disposal</option>
+            <option value ="storage">Putting in Storage</option>
+        </select><br>
+        
+        <button name = "sForm" id = "Submit">Submit Sharpening</button>
+    </form>
+
+    <!-- Jquery/app code -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>
