@@ -24,7 +24,7 @@ const $skateStorage = $('#skateStorage');
 //     return workbook.xlsx.writeFile('TestData.xlsx');
 // });
 
-$charForm.on("submit", function(e){
+$skateForm.on("submit", function(e){
     e.preventDefault();
 
     //pull the skate name
